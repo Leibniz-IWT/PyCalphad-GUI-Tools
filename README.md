@@ -1,7 +1,3 @@
-Of course. Here are the readme texts for your PyCalphad-GUI-Tools GitHub project and the individual tools.
-
------
-
 # PyCalphad-GUI-Tools
 
 This repository hosts a collection of graphical user interface (GUI) tools built with Python, PyQt6, and the powerful `pycalphad` library. The goal is to provide easy-to-use interfaces for common computational thermodynamics tasks, making them accessible to a broader audience without requiring extensive scripting knowledge.
