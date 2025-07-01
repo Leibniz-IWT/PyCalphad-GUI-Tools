@@ -38,7 +38,7 @@ To use these tools, you need a Python environment with a few key libraries insta
     *For the Scheil Calculator:*
 
     ```bash
-    python ScheilGUI-V3.py
+    python Scheil-Calculator.py
     ```
 
 ## Contributing
@@ -96,7 +96,7 @@ The Scheil Solidification Calculator provides a user-friendly graphical interfac
 
 ### How to Use
 
-1.  **Launch the application**: Run the `ScheilGUI-V3.py` script.
+1.  **Launch the application**: Run the `Scheil-Calculator.py` script.
 2.  **Load a Database**: Click **"Open TDB file"** and select a valid database. The element dropdowns will be populated automatically.
 3.  **Define Composition**:
       * Select the **Base Element**.
