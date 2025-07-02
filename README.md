@@ -96,7 +96,7 @@ The Scheil Solidification Calculator provides a user-friendly graphical interfac
       * Save the solidification plot as a high-quality **SVG** file. Figure size can be changed and a template file is used that can be adjusted to your style. The default template is our neatplot style (https://github.com/Leibniz-IWT/neatplot/tree/main)
       * Export the complete results table to a **CSV** file for further analysis in other software.
   * **Conversion between Mass-% and Atom-%**:
-      * If you use the SGTE Pure Element Database (https://www.sgte.net/en/free-pure-elements-database), you can use the tool to easily convert compositions with up to 7 elements ;-)
+      * If you use the SGTE Pure Element Database (https://www.sgte.net/en/free-pure-elements-database), you can use the tool to easily convert compositions with up to 7 elements
 ### How to Use
 
 1.  **Launch the application**: Run the `Scheil-Calculator.py` script.
