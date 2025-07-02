@@ -51,8 +51,7 @@ Contributions, bug reports, and feature requests are welcome\! Please feel free 
 
 The TDB Database Browser is a straightforward utility designed to help you quickly inspect and understand the contents of your Thermo-Calc database (`.tdb`) files. You can either select an element to show element information and included interactions or you can select a phase to show phase information.
 
-<table>
-  <tr>
+<table border="0" cellspacing="0" cellpadding="0">  <tr>
     <td><img src="https://github.com/user-attachments/assets/7b752655-a4b7-4d78-acf3-6a5a1572e450" alt="Database Browser Element Info" width="420"></td>
     <td><img src="https://github.com/user-attachments/assets/0a141b22-58b7-4a18-96d6-a65f99326d13" alt="Database Browser Phase Info" width="420"></td>
   </tr>
@@ -80,10 +79,10 @@ The TDB Database Browser is a straightforward utility designed to help you quick
 
 The Scheil Solidification Calculator provides a user-friendly graphical interface for performing Scheil-Gulliver solidification simulations. It leverages `pycalphad` and the `scheil` library to calculate and visualize the phase evolution during cooling under the assumption of no diffusion in the solid phases and infinite diffusion in the liquid.
 
-<table>
+<table border="0" cellspacing="0" cellpadding="0">
   <tr>
+    <td><img src="https://github.com/user-attachments/assets/949dc1ee-ca13-4329-838e-5160d056e716" alt="Scheil Calculator Main Interface" width="420"></td>      
     <td><img src="https://github.com/user-attachments/assets/5e3bf322-6ee3-40dd-b46e-8e0dc7536896" alt="Scheil Calculator Phase Selection" width="420"></td>
-    <td><img src="https://github.com/user-attachments/assets/949dc1ee-ca13-4329-838e-5160d056e716" alt="Scheil Calculator Main Interface" width="420"></td>
   </tr>
 </table>
 
