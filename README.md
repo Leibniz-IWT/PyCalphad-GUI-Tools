@@ -93,7 +93,7 @@ The Scheil Solidification Calculator provides a user-friendly graphical interfac
       * Plots the fraction of each forming phase as a function of temperature.
       * Displays the full solidification data in a clear, sortable table.
   * **Easy Data Export**:
-      * Save the solidification plot as a high-quality **SVG** file. Figure size can be changed and a template file is used that can be adjusted to your style. The defaulte template is our neatplot style (https://github.com/Leibniz-IWT/neatplot/tree/main)
+      * Save the solidification plot as a high-quality **SVG** file. Figure size can be changed and a template file is used that can be adjusted to your style. The default template is our neatplot style (https://github.com/Leibniz-IWT/neatplot/tree/main)
       * Export the complete results table to a **CSV** file for further analysis in other software.
 
 ### How to Use
