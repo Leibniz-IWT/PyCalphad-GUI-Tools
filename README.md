@@ -107,7 +107,7 @@ The Scheil Solidification Calculator provides a user-friendly graphical interfac
 4.  **Set Parameters**:
       * Enter the **Start Temperature** and **Step** size for the calculation.
       * Select the desired temperature unit (°C or K).
-5.  **Calculate**: Click the **"Calculate & Plot"** button. The plot and results table will be updated once the simulation is complete.
+5.  **Calculate**: Click the **"Calculate"** button. The plot and results table will be updated once the simulation is complete.
 6.  **Export (Optional)**:
       * Click **"Save Table (CSV)"** to save the numerical results.
       * Click **"Save Figure (SVG)"** to save the generated plot.
