@@ -77,7 +77,7 @@ The TDB Database Browser is a straightforward utility designed to help you quick
 
 The Scheil Solidification Calculator provides a user-friendly graphical interface for performing Scheil-Gulliver solidification simulations. It leverages `pycalphad` and the `scheil` library to calculate and visualize the phase evolution during cooling under the assumption of no diffusion in the solid phases and infinite diffusion in the liquid.
 
- *(Suggestion: Add a screenshot of the application here)*
+![ScheilCalculator](https://github.com/user-attachments/assets/5af21c6e-6ddf-49f2-b6c0-0fed8b1bcbe3)
 
 ### Features
 
@@ -93,7 +93,7 @@ The Scheil Solidification Calculator provides a user-friendly graphical interfac
       * Plots the fraction of each forming phase as a function of temperature.
       * Displays the full solidification data in a clear, sortable table.
   * **Easy Data Export**:
-      * Save the solidification plot as a high-quality **SVG** file.
+      * Save the solidification plot as a high-quality **SVG** file. Figure size can be changed and a template file is used that can be adjusted to your style. The defaulte template is our neatplot style (https://github.com/Leibniz-IWT/neatplot/tree/main)
       * Export the complete results table to a **CSV** file for further analysis in other software.
 
 ### How to Use
