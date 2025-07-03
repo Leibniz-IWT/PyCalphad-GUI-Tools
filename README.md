@@ -80,9 +80,9 @@ The TDB Database Browser is a straightforward utility designed to help you quick
 The Scheil Solidification Calculator provides a user-friendly graphical interface for performing Scheil-Gulliver solidification simulations. It leverages `pycalphad` and the `scheil` library to calculate and visualize the phase evolution during cooling under the assumption of no diffusion in the solid phases and infinite diffusion in the liquid.
 
 <table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/949dc1ee-ca13-4329-838e-5160d056e716" alt="Scheil Calculator Main Interface" width="420"></td>      
-    <td><img src="https://github.com/user-attachments/assets/5e3bf322-6ee3-40dd-b46e-8e0dc7536896" alt="Scheil Calculator Phase Selection" width="420"></td>
+  <tr>      
+    <td><img src="https://github.com/user-attachments/assets/1ce1f782-d176-4b9d-bdbb-d99ea53f400f" alt="Scheil Calculator Main Interface" width="420"></td>      
+    <td><img src="https://github.com/user-attachments/assets/19e68430-fbfa-4594-93ce-0f0ae4ba83a9" alt="Scheil Calculator Phase Selection" width="420"></td>
   </tr>
 </table>
 
