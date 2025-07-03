@@ -1,0 +1,120 @@
+# Matplotlib style for scientific plotting
+# all params: https://matplotlib.org/devdocs/tutorials/introductory/customizing.html
+
+#-------------------------------------------------
+# Set color cycle: (see https://medialab.github.io/iwanthue/ for other color combinations)
+axes.prop_cycle : cycler('color', ['ba543d', 'ac9c3d', '56ac67', '20d8fd', '8060b7', 'b84c7d'])
+
+#Alternative: color and linestyle cycle: 
+#axes.prop_cycle : (cycler('color', ['7f62b8', 'b84c7d', 'b8533c', 'bc9b3c', '6ca24d', '46c19a']) + cycler('ls', ['-', '--', ':', '-.','-', '-']))
+#axes.prop_cycle : (cycler('color', ['7f62b8', 'b84c7d', 'b8533c', 'bc9b3c', '6ca24d', '46c19a']) * cycler('ls', ['-', '--', ':', '-.','-', '-']))
+
+#-------------------------------------------------
+# Set figure
+figure.figsize : 3.5, 2.625				#figure size in inches
+figure.dpi: 300							#dots per inch
+
+#-------------------------------------------------
+# Set x axis
+xtick.direction : in					#direction: in, out, inout
+xtick.major.size : 3					#size of major x-ticks
+xtick.major.width : 0.75				#major tick width in points
+xtick.minor.size : 1.5					#size of minor x-ticks
+xtick.minor.width : 0.75				#minor tick width in points
+xtick.minor.visible : True				#show minor x-ticks --> default is false (minor x-ticks not visible)
+xtick.top : True						#show x-ticks also on top x-axis (set to False for hiding top x-ticks)
+xtick.bottom: True    					# draw ticks on the bottom side
+xaxis.labellocation: center  			# alignment of the xaxis label: left, right, center
+xtick.major.pad : 3.5     				# distance to major tick label in points
+xtick.minor.pad : 3.5     				# distance to the minor tick label in points
+
+#-------------------------------------------------
+# Set y axis
+ytick.direction : in					#direction: in, out, inout
+ytick.major.size : 3					#size of major y-ticks
+ytick.major.width : 0.75				#major tick width in points
+ytick.minor.size : 1.5					#size of minor y-ticks
+ytick.minor.width : 0.75				#minor tick width in points
+ytick.minor.visible : True				#show minor y-ticks --> default is false (minor y-ticks not visible)
+ytick.right : True						#show y-ticks also on right side (set to False for hiding top y-ticks)
+ytick.left : True						#show y-ticks aon left y-axis (set to False for hiding top y-ticks)
+yaxis.labellocation: center  			# alignment of the yaxis label: bottom, top, center
+ytick.major.pad : 3.5     				# distance to major tick label in points
+ytick.minor.pad : 3.5     				# distance to the minor tick label in points
+
+#-------------------------------------------------
+#more axis settings
+axes.titlepad : 6.0     				# pad between axes and title in points
+axes.labelpad : 4.0     				# space between label and axis
+axes.formatter.limits: -5, 6  			# use scientific notation if log10
+										# of the axis range is smaller than the
+										# first or larger than the second
+axes.formatter.min_exponent: 0  		# minimum exponent to format in scientific notation
+axes.spines.left:   True  				# display axis spines, False to hide
+axes.spines.bottom: True
+axes.spines.top:    True
+axes.spines.right:  True
+
+#-------------------------------------------------
+#Grid
+axes.grid : False   					# show: True, Hide: False
+axes.grid.axis : both    				# which axis the grid should apply to {x, y, both}
+axes.grid.which: both   				# grid lines at {major, minor, both} ticks
+grid.color: b0b0b0  				   # grid color
+grid.linestyle: -       				# --, -., :
+grid.linewidth: 0.5     				# in points
+grid.alpha:     0.3     				# transparency, between 0.0 and 1.0
+
+#-------------------------------------------------
+# Set line widths
+axes.linewidth : 1						#line width of the axes (a.k.a. the bounding rectangle of the graph)
+lines.linewidth : 1.					#width of the individual data lines
+lines.markersize: 3.5					#size of markers (a.k.a. data points)
+
+#-------------------------------------------------
+# Legend
+legend.frameon : True					#hide frame of the legend (set to True to make visible)
+legend.framealpha : 1					# legend patch transparency
+legend.facecolor : white				# inherit from axes.facecolor; or color spec
+legend.edgecolor : white				# inherit from axes.facecolor; or color spec	
+legend.loc : best						#legend is located at the 'best' position (whatever that is...) --> location can be set manually with 0-8 
+legend.markerscale: 0.8 				#the relative size of legend markers vs. original
+legend.handlelength: 1					# the length of the legend lines
+
+#-------------------------------------------------
+# Errorbar
+errorbar.capsize: 2						#size of the caps (dt.: Begrenzung der Fehlerbalken)
+
+#-------------------------------------------------
+# Font sizes
+axes.labelsize: 8						#font size of axis labels/titles
+xtick.labelsize: 8						#font size of x-tick labels (i.e. numbers)
+ytick.labelsize: 8						#font size of y-tick labels (i.e. numbers)
+legend.fontsize: 7						#font size of the legend labels
+font.size: 10							#general font size
+
+#-------------------------------------------------
+# Font Family
+font.family: sans-serif					#using only font typs with sans-serif
+font.sans-serif: Arial					#specify sans-serif font
+mathtext.fontset : cm					#font for mathematical expressions: dejavusans, dejavuserif, cm (Tex), stix (TNR), stixsans
+
+#-------------------------------------------------
+# Use LaTeX for text formatting
+text.usetex : False						#disable formatting with LaTeX (to enable set to True)
+
+#-------------------------------------------------
+# Use constrained layout for figure (alternative is tight_layout)
+figure.constrained_layout.use: True		#disable with False
+
+#-------------------------------------------------
+#Set padding
+figure.constrained_layout.h_pad: 0.005	#horizontal pad (left/right)
+figure.constrained_layout.w_pad: 0.005	#vertical pad (bottom/top)
+figure.constrained_layout.hspace: 0.005	#horizontal pad between multi-colomn figures
+figure.constrained_layout.wspace: 0.005	#vertical pad between multi-row figures
+
+#-------------------------------------------------
+# Always save as 'tight'
+#savefig.bbox : tight					#file (e.g. .png) is safed in 'tight' layout
+#savefig.pad_inches : 0.05				#set padding to 0.05
