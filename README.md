@@ -51,8 +51,8 @@ Contributions, bug reports, and feature requests are welcome\! Please feel free 
 
 The TDB Database Browser is a straightforward utility designed to help you quickly inspect and understand the contents of your Thermo-Calc database (`.tdb`) files. You can either select an element to show element information and included interactions or you can select a phase to show phase information.
 
-<img src="https://github.com/user-attachments/assets/7b752655-a4b7-4d78-acf3-6a5a1572e450" alt="Database Browser Element Info" height="400">
-<img src="https://github.com/user-attachments/assets/0a141b22-58b7-4a18-96d6-a65f99326d13" alt="Database Browser Phase Info" height="400">
+<img src="https://github.com/user-attachments/assets/7b752655-a4b7-4d78-acf3-6a5a1572e450" alt="Database Browser Element Info" height="350">
+<img src="https://github.com/user-attachments/assets/0a141b22-58b7-4a18-96d6-a65f99326d13" alt="Database Browser Phase Info" height="350">
 
 ### Features
 
